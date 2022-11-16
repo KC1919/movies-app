@@ -1,0 +1,41 @@
+.banner-card-container {
+    width: 100%;
+    margin: auto;
+    height: 80vh;
+    position: relative;
+    color: white;
+}
+
+.banner-img {
+    height: 80vh;
+    width: 100%;
+}
+
+.banner-card {
+    position: absolute;
+    top: 40vh;
+}
+
+.banner-title {
+    margin: 0;
+}
+
+.banner-text {
+    overflow: hidden;
+    margin: 1rem 0;
+    height: 4.5rem;
+}
+
+@media screen and (max-width:500px) {
+    .banner-card-container{
+        max-height: 40vh;
+    }
+
+    .banner-img{
+        max-height: 40vh;
+    }
+
+    .banner-card{
+        top: 10vh;
+    }
+}

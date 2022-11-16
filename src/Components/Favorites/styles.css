@@ -1,0 +1,122 @@
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+}
+
+.genre-container{
+    width: 20vw;
+    /* margin-right: 20rem; */
+}
+
+.data-container{
+    width: 70vw;
+    margin-left: 2vw;
+    padding: 0;
+}
+
+.search-container{
+    width: 100%;
+}
+
+.movies-container{
+    width: 100%;
+    margin-top: 2vw;
+}
+
+.title{
+    width: 50%;
+    padding-right: 2vw;
+}
+
+.genre{
+    width: 10%;
+    /* padding-right: 2vw; */
+}
+
+.popularity{
+    width: 20%;
+    padding-left: 2vw;
+}
+
+.rating{
+    padding-left: 1vw;
+    padding-right: 1vw;
+    width: 10%;
+}
+
+.horizontal-rule{
+    width: 100%;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#table-head{
+    border-bottom: 2px solid darkgray;
+}
+
+tbody>tr{
+    height: 15vh;
+    border-bottom: 4px solid whitesmoke;
+}
+
+img{
+    height: 10vh;
+    width: 8vw;
+}
+
+.title-text{
+    width: 15vw;
+    display: inline-block;
+    word-wrap: break-word;
+    text-align: left;
+    padding-left: 1vw;
+    margin: 0;
+}
+
+.delete{
+    text-align: center;
+}
+
+.delete-btn{
+    width: 70%;
+    height: 5vh;
+    min-height: 10%;
+    color: white;
+    text-align: center;
+    padding: 0;
+    font-size: 1vw;
+}
+
+.font{
+    font-size: 1vw;
+}
+
+
+input{
+    width: 15vw;
+    font-size: 1vw;
+}
+
+@media screen and (max-width:900px){
+    
+    .font{
+        font-size: 2vw;
+    }
+
+    img{
+        height: 6vh;
+        width: 13vw;
+    }
+
+    .delete-btn{
+        font-size: 1.5vw;
+        height: 2.5vh;
+        width: 8vw;
+    }
+}
